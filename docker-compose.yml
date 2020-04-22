@@ -11,7 +11,7 @@ services:
 
   myapp:
     tty: true
-    image: bitnami/laravel:7
+    image: cacachandrika/tucil4:latest
     environment:
       - DB_HOST=mariadb
       - DB_USERNAME=my_user
